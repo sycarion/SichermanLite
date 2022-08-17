@@ -1,4 +1,4 @@
-### Monsters
+### Encounters
 | Name | Hit Dice | Armor Class | Attack |
 | -- | -- | -- | -- |
 | Animal (small) eg Badger | HD 1d8+2 (6 hp) | AC 15 | Claw +4 (1d2-1)
