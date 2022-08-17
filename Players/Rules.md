@@ -172,7 +172,11 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
 System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
 
+System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.
+
 Microlite20 © 2006, Robin V. Stacey (robin@greywulf.net)
+
+Ancestry & Culture: An Alternative to Race in 5e, Copyright 2020, Arcanist Press LLP.
 
 Sicherman Plus One © 2022, Barry (Bear) Payne
 [End of License]
