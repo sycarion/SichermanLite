@@ -6,9 +6,11 @@ This is a thought experiment to create a small game based on Microlite20 that us
 
 This game uses three dice, two sicherman d12s and a regular d12. For ease of reference, the dice are named Big, Low, and Standard. The Big Die is numbered 1,2,5,6,7,8,9,10,11,12,15,16. The Low Die is numbered 1,2,3,3,4,4,5,5,6,6,7,8. The Standard Die is numbered from 1 to 12 per a standard die.
 
+https://anydice.com/program/2a991
+
 #### Required Rolls
 
-On a required roll, the rules will state which di(c)e are required. B12 is rolling a Big Die. SL12 is rolling a Standard Die and a Low Die together and summing the results of each die. There are only seven possible required rolls. L12, S12, B12, SL12, BL12, BS12, and BSL12.
+On a required roll, the rules will state which di(c)e are required. B12 is rolling a Big Die. SL12 is rolling a Standard Die and a Low Die together and summing the results of each die. There are only seven possible required rolls. L12, S12, B12, SL12, BL12, BS12, and BSL12. If no di(c)e are stated for a required roll, use S12.
 
 If a required roll has advantage, an extra die is rolled and the die with the lowest result is removed. For a required roll with disadvantage, an extra die is rolled and the die with the highest result is removed.
 
@@ -93,21 +95,23 @@ Melee attack bonus = STR bonus + Level
 Missile attack bonus = DEX bonus + Level
 Magic attack bonus = MIND bonus + Level
 
-Add attack bonus to d20 roll. If higher than your opponent's Armor Class (AC), it's a hit. A result of 24 or greater is automatically a critical doing maximum damage.
+Required rolls use an S12 with the following exceptions: Mages use B12 as a required roll for a Magic attack bonus.
+
+Add attack bonus to a required roll. If higher than your opponent's Armor Class (AC), it's a hit. A result of 24 or greater is automatically a critical doing maximum damage.
 
 Fighters and Rogues can use DEX bonus + Level as Melee attack bonus instead if wielding a light weapon. Fighters and Rogues can wield 2 light weapons and attack with both in a round if they take a -2 penalty on all attack rolls that round. Rapiers count as light weapons, but you cannot wield two rapiers at the same time.
 
-If the total bonus is +6 or more a second attack can be made with a -5 penalty. If the total bonus is +11 or more a third attack can be made at -10. For example, if the total bonus is +12, three attacks can be made at +12/+7/+2.
+If the total bonus is +7 or more a second attack can be made with a -6 penalty. If the total bonus is +13 or more a third attack can be made at -12. For example, if the total bonus is +13, three attacks can be made at +13/+7/+1.
 
 Add STR bonus to Melee damage, x2 for 2-handed weapons.
 
-Armor Class (AC) = 10 + DEX bonus + Armor bonus.
+Armor Class (AC) = 12 + DEX bonus + Armor bonus.
 
 ### Other Hazards
-* Falling: 1d6 damage per 10', half damage on Phys + DEX save. DC=depth fallen in feet
-* Spikes: add +1 point to falling damage per 10' fallen, max +10
+* Falling: S12 damage per 10', half damage on Phys + DEX save. DC=depth fallen in feet
+* Spikes: add +1 point to falling damage per 10' fallen, max +12
 * Poison: Phys + STR save to avoid or for half, depending on poison. Effect varies with poison type.
-* Extreme Heat & Cold: If not wearing suitable protection, Phys + STR save once every 10 minutes (DC 15, +1 per previous check), taking S12 damage on each failed save.
+* Extreme Heat & Cold: If not wearing suitable protection, Phys + STR save once every 10 minutes (DC 16, +1 per previous check), taking L12 damage on each failed save.
 
 ### Level Advancement
 Encounter Level = Hit Dice of defeated monsters, or the given EL for the trap, situation, etc. Add +1 for each doubling of the number of foes. eg: 1 kobold = EL1. 2 kobolds = EL2. 4 kobolds = EL3, etc.
@@ -119,7 +123,7 @@ Each level adds one of the following (player's choice):
 +1 to all skills
 
 Every even level adds:
-+S12 to Hit Points (+B12 for Fighters)
++S12 to Hit Points (+B12 for Fighters, +L12 for Mages)
 
 If the level divides by three (i.e. level 3,6,9,etc.) add 1 point to STR, DEX or MIND.
 Fighters gain +1 to their attack and damage rolls at levels 5,10,15,etc.
@@ -128,27 +132,31 @@ Clerics and Magi gain access to new spell levels at levels 3,5,7,9,etc.
 Example: The 1st level adventurers have just completed a dungeon adventure, and defeated 5 EL1 encounters, an EL2 trap and the EL3 leader. That's a total of EL10, so they all advance to level 2. They need to defeat another 20 Encounter Levels to reach Level 3.
 
 ### Sample Characters
-Morris, Human Rogue-1
-STR 12 (+1), DEX 15 (+2), MIND 12 (+1)
-hp 13, AC 15 (Studded Leather), Paired Shortswords, +0/+0, d6+1
+Morris, Elven/Human Rogue-1
+STR 12 (+0), DEX 16 (+2), MIND 14 (+1)
+hp 21, AC 17 (Studded Leather), Paired Shortswords, +0/+0, L12+1
 Subterfuge +5, all others @ +2
+Cast Mage Hand 1/day - Move close object weighing up to 5 lbs. Duration: Concentration.
 
-Kendrick, Dwarf Fighter-1
-STR 16 (+3), DEX 13 (+1), MIND 11 (+0)
-hp 17, AC 17 (Chainmail + shield), Longsword +5, d8+4
+Kendrick, Dwarven/Dwarven Fighter-1
+STR 22 (+5), DEX 14 (+1), MIND 12 (+0)
+hp 34, AC 18 (Chainmail + shield), Longsword +5, S12
 Physical +4, all others @ +1
+Darkvision ability
 
-Cholmer, Elven Mage-1
-STR 12 (+1), DEX 13 (+1), MIND 16 (+3)
-hp 13, AC 11 (Robes), Quarterstaff +2, d6+1
+Cholmer, Halfing/Elven Mage-1
+STR 12 (+0), DEX 17 (+2), MIND 18 (+3)
+hp 18, AC 15 (Robes), Quarterstaff +0, L12
 Knowledge +4, all others @ +1
 Spells: All 0 and 1st level arcane spells.
+Luck ability
 
-Barnabas, Halfling Cleric-1
-STR 10 (+0), DEX 16 (+3), MIND 13 (+1)
-hp 11, AC 18 (Chainmail), Morningstar +1, d8
+Barnabas, Human/Halfling Cleric-1
+STR 16 (+2), DEX 14 (+1), MIND 15 (+1)
+hp 27, AC 18 (Chainmail), Morningstar +2, S12
 Communication +4, all others are +1
 Spells: All 0 and 1st level divine spells.
+Cold/Heat Resistance
 
 ### OPEN GAME LICENSE Version 1.0a
 The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc ("Wizards"). All Rights Reserved.
