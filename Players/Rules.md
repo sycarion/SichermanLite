@@ -14,7 +14,7 @@ The Standard Die (S12) is numbered from 1 to 12 per a standard die.
 
 The 6-sided dice are abbreviated as D6.
 
-https://anydice.com/program/2a991
+https://anydice.com/program/2ad18
 
 ## Ability Scores
 
